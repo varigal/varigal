@@ -1,4 +1,34 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ta"
+title = "பாடல் வரிகள்"
 theme = "kiss"
+enableRobotsTXT = true
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+
+[params.opengraph.twitter]
+page = "psankar" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "psankar"
+github = "psankar"
+email = "sankar.curiosity@gmail.com"
+linkedin = ""
+facebook = ""
+instagram = ""
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+
+[taxonomies]
+tag ="tags"
