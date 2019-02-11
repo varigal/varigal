@@ -1,7 +1,6 @@
 ---
 title: "Kaatuchirukki"
 date: 2019-02-11T22:54:16+05:30
-draft: true
 tags: [
     "Vairamuthu",
     "AR Rahman",
