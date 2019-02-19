@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://tender-fermat-a0ae4a.netlify.com"
 languageCode = "ta"
 title = "பாடல் வரிகள்"
 theme = "kiss"
